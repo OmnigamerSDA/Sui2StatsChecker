@@ -28,9 +28,29 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;70</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;70</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +102,249 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abizboah02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amada02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anita02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayda02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badeaux02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bob02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolgan02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camus02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaco02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuchara02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clive02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eilie02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feather02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flik02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freedy02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futch02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gabocha02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gadget02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gantetsu02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gengen02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\genshu02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\georg02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gijimu02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haiyo02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanna02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hauser02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hix02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoi02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\humphrey02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jowy02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kahn02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karen02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kasumi02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\killey02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kinnison02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koyu02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lcchan02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lorelai02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lowen02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luc02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makumaku02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mazus02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mcdohl02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meg02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mekumeku02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miklotov02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mikumiku02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\millie02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mokumoku02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mondo02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mukumuku02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nanami02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nina02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oulan02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesmerga02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rikimaru02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rina02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rulodia02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sasuke02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sheena02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shilo02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shin02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shiro02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sid02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sierra02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sigfried02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simone02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stallion02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taiho02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tengaar02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomo02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsai02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuta02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valeria02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viki02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viktor02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vincent02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wakaba02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoshino02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zamza02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riou02.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

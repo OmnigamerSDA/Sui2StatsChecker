@@ -47,15 +47,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.picBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pdfChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.charGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // statBox
             // 
             this.statBox.FormattingEnabled = true;
-            this.statBox.Location = new System.Drawing.Point(21, 175);
+            this.statBox.Location = new System.Drawing.Point(21, 194);
             this.statBox.Name = "statBox";
             this.statBox.Size = new System.Drawing.Size(121, 21);
             this.statBox.TabIndex = 0;
@@ -82,7 +84,7 @@
             // levelBox
             // 
             this.levelBox.FormattingEnabled = true;
-            this.levelBox.Location = new System.Drawing.Point(21, 113);
+            this.levelBox.Location = new System.Drawing.Point(21, 154);
             this.levelBox.Name = "levelBox";
             this.levelBox.Size = new System.Drawing.Size(121, 21);
             this.levelBox.TabIndex = 2;
@@ -133,7 +135,7 @@
             // charBox
             // 
             this.charBox.FormattingEnabled = true;
-            this.charBox.Location = new System.Drawing.Point(21, 62);
+            this.charBox.Location = new System.Drawing.Point(21, 114);
             this.charBox.Name = "charBox";
             this.charBox.Size = new System.Drawing.Size(121, 21);
             this.charBox.TabIndex = 6;
@@ -202,7 +204,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 156);
+            this.label1.Location = new System.Drawing.Point(18, 178);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 8;
@@ -211,7 +213,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 97);
+            this.label2.Location = new System.Drawing.Point(18, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 9;
@@ -220,11 +222,21 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 46);
+            this.label3.Location = new System.Drawing.Point(18, 98);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 10;
             this.label3.Text = "Character:";
+            // 
+            // picBox
+            // 
+            this.picBox.Image = global::Sui2StatsChecker.Properties.Resources.riou02;
+            this.picBox.Location = new System.Drawing.Point(21, 13);
+            this.picBox.Name = "picBox";
+            this.picBox.Size = new System.Drawing.Size(121, 82);
+            this.picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBox.TabIndex = 11;
+            this.picBox.TabStop = false;
             // 
             // StatCheckerForm
             // 
@@ -232,6 +244,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(810, 561);
+            this.Controls.Add(this.picBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -246,6 +259,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pdfChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.statGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.charGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,6 +284,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn statColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn probColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cdfColumn;
+        private System.Windows.Forms.PictureBox picBox;
     }
 }
 
